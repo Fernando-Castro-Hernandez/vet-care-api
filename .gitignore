@@ -17,6 +17,14 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+### Secretos locales (no subir credenciales reales) ###
+secrets.properties
+**/secrets.properties
+
+# Ignorar archivos CLAUDE.md en cualquier carpeta del proyecto
+CLAUDE.md
+**/CLAUDE.md
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
